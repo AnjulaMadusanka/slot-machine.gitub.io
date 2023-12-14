@@ -1,0 +1,82 @@
+body {
+  text-align:center;
+  background-image: url("./images/background_image.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 102vh;
+  overflow-y: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 102vh;
+  margin-top: 5vh;
+}
+
+.doors {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  top: 7vh;
+}
+
+.door {
+  background: #fafafa;
+  width: 8%;
+  height: 23vh;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.boxes {
+  transition: transform 1s ease-in-out;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  font-family:open sans;
+}
+
+.buttons {
+  margin: 1rem 0 2rem 0;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 0.1rem;
+  border: none;
+  border-radius: 32px;
+  padding: 5px 15px;
+  width: 8%;
+  height: auto;
+  font-size: 1.5vw;
+  font-family:open sans;
+}
+
+.info {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.header {
+  width: 100%;
+  justify-content: center;
+}
+.headerImg {
+  width: 25%;
+}
+.tresure {
+  width: 31.8%;
+  position: relative;
+  z-index: 0;
+  top: -4vh;
+}
